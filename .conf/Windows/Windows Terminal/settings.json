@@ -4,16 +4,16 @@
     "actions": 
     [
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -33,28 +33,35 @@
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "focusFollowMouse": false,
+    "initialCols": 95,
+    "initialRows": 23,
     "launchMode": "default",
     "profiles": 
     {
         "defaults": 
         {
             "backgroundImage": null,
-            "backgroundImageOpacity": 0.20000000000000001,
-            "colorScheme": "Ayu",
-            "cursorShape": "doubleUnderscore",
+            "backgroundImageOpacity": 0.2,
+            "colorScheme": "Ayu (Modded)",
+            "cursorShape": "filledBox",
+            "experimental.retroTerminalEffect": false,
             "font": 
             {
-                "face": "JetBrainsMonoMedium Nerd Font",
-                "size": 14
+                "face": "Iosevka",
+                "size": 16.0
             },
-            "intenseTextStyle": "bright",
-            "opacity": 81,
+            "opacity": 100,
+            "suppressApplicationTitle": true,
             "useAcrylic": false
         },
         "list": 
         [
             {
                 "colorScheme": "Ayu",
+                "font": 
+                {
+                    "face": "Hack NF"
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -70,6 +77,10 @@
                 "backgroundImage": null,
                 "colorScheme": "Ayu (Modded)",
                 "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Iosevka"
+                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
@@ -85,7 +96,7 @@
             {
                 "guid": "{5fb123f1-af88-5b5c-8953-d14a8def1978}",
                 "hidden": false,
-                "name": "PowerShell 7 (old)",
+                "name": "PowerShell 7 (system)",
                 "source": "Windows.Terminal.PowershellCore"
             }
         ]
@@ -323,6 +334,29 @@
             "yellow": "#C18301"
         },
         {
+            "background": "#292A2B",
+            "black": "#292A2B",
+            "blue": "#45A9F9",
+            "brightBlack": "#A2A2A2",
+            "brightBlue": "#6FC1FF",
+            "brightCyan": "#6FC1FF",
+            "brightGreen": "#19F9D8",
+            "brightPurple": "#B084EB",
+            "brightRed": "#FF2C6D",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFCC95",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#6FC1FF",
+            "foreground": "#E6E6E6",
+            "green": "#19F9D8",
+            "name": "Panda",
+            "purple": "#B084EB",
+            "red": "#FF2C6D",
+            "selectionBackground": "#FFFFFF",
+            "white": "#E6E6E6",
+            "yellow": "#FFB86C"
+        },
+        {
             "background": "#002B36",
             "black": "#002B36",
             "blue": "#268BD2",
@@ -415,6 +449,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-22.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -465,5 +522,6 @@
     "tabSwitcherMode": "inOrder",
     "tabWidthMode": "equal",
     "theme": "dark",
+    "themes": [],
     "wordDelimiters": " /\\()\"'-.,:;<>~!@#$%^&*|+=[]{}~?\u2502"
 }
